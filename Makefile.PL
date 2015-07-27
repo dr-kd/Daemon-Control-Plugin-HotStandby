@@ -25,9 +25,9 @@ build_requires (
 );
 
 requires (
-		  Daemon::Control => '0.001007',
-		  Role::Tiny => 0,
-		  Class::Method::Modifiers => 0,
+		  'Daemon::Control' => '0.001007',
+		  'Role::Tiny' => 0,
+		  'Class::Method::Modifiers' => 0,
 );
 
 install_as_cpan;
