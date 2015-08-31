@@ -4,7 +4,7 @@ use strict;
 use Role::Tiny;
 use Class::Method::Modifiers qw/fresh/;
 
-our $VERSION = '0.0001';
+# ABSTRACT: Daemon::Control plugin to bring up new processes before disposing of the old ones.
 
 =head2 NAME
 
